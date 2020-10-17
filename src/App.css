@@ -187,14 +187,14 @@
   }
 
   .car-to-left {
-    animation: drive infinite 10s linear alternate;
+    animation: drive infinite 8s linear alternate;
   }
 
   .car-to-right {
     animation: drive infinite 15s linear alternate-reverse;
   }
   .car-to-right2 {
-    animation: drive2 infinite 10s linear alternate-reverse;
+    animation: drive infinite 10s linear alternate-reverse;
   }
 }
 
@@ -256,15 +256,6 @@
 @keyframes drive {
   from {
     left: 0;
-  }
-  to {
-    left: 100%;
-  }
-}
-
-@keyframes drive2 {
-  from {
-    left: 100px;
   }
   to {
     left: 100%;
