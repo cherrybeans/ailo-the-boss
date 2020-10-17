@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ailo-the-boss/precache-manifest.280f82b84c2c47c13eb0a7d1a24dbd7b.js"
+  "/ailo-the-boss/precache-manifest.e2fe845474017071d842ac7b357aaa07.js"
 );
 
 self.addEventListener('message', (event) => {

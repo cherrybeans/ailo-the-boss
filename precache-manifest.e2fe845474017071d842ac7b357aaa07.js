@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e62d1dbed7b6c28a7eb8896bd8d16870",
+    "revision": "80eab59b6954fc0c5ef893f27f404309",
     "url": "/ailo-the-boss/index.html"
   },
   {
-    "revision": "2fd9edb87bac00e7fbd1",
-    "url": "/ailo-the-boss/static/css/main.0a303eb7.chunk.css"
+    "revision": "fb1f0bbe7c4223dee049",
+    "url": "/ailo-the-boss/static/css/main.80e2bb1c.chunk.css"
   },
   {
     "revision": "918aa8baae9ffdb2f8fe",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ailo-the-boss/static/js/2.fa619250.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fd9edb87bac00e7fbd1",
+    "revision": "fb1f0bbe7c4223dee049",
     "url": "/ailo-the-boss/static/js/main.6a3e784b.chunk.js"
   },
   {

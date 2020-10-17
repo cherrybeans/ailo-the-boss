@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ailo-the-boss/static/css/main.0a303eb7.chunk.css",
+    "main.css": "/ailo-the-boss/static/css/main.80e2bb1c.chunk.css",
     "main.js": "/ailo-the-boss/static/js/main.6a3e784b.chunk.js",
     "main.js.map": "/ailo-the-boss/static/js/main.6a3e784b.chunk.js.map",
     "runtime-main.js": "/ailo-the-boss/static/js/runtime-main.09a30901.js",
@@ -8,9 +8,9 @@
     "static/js/2.fa619250.chunk.js": "/ailo-the-boss/static/js/2.fa619250.chunk.js",
     "static/js/2.fa619250.chunk.js.map": "/ailo-the-boss/static/js/2.fa619250.chunk.js.map",
     "index.html": "/ailo-the-boss/index.html",
-    "precache-manifest.280f82b84c2c47c13eb0a7d1a24dbd7b.js": "/ailo-the-boss/precache-manifest.280f82b84c2c47c13eb0a7d1a24dbd7b.js",
+    "precache-manifest.e2fe845474017071d842ac7b357aaa07.js": "/ailo-the-boss/precache-manifest.e2fe845474017071d842ac7b357aaa07.js",
     "service-worker.js": "/ailo-the-boss/service-worker.js",
-    "static/css/main.0a303eb7.chunk.css.map": "/ailo-the-boss/static/css/main.0a303eb7.chunk.css.map",
+    "static/css/main.80e2bb1c.chunk.css.map": "/ailo-the-boss/static/css/main.80e2bb1c.chunk.css.map",
     "static/js/2.fa619250.chunk.js.LICENSE.txt": "/ailo-the-boss/static/js/2.fa619250.chunk.js.LICENSE.txt",
     "static/media/200-kr.jpg": "/ailo-the-boss/static/media/200-kr.9b312697.jpg",
     "static/media/ambulance.png": "/ailo-the-boss/static/media/ambulance.ffa400bc.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.09a30901.js",
     "static/js/2.fa619250.chunk.js",
-    "static/css/main.0a303eb7.chunk.css",
+    "static/css/main.80e2bb1c.chunk.css",
     "static/js/main.6a3e784b.chunk.js"
   ]
 }
