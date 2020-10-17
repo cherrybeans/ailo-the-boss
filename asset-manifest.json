@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/ailo-the-boss/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ailo-the-boss/static/js/main.dbcf4e55.chunk.js",
-    "main.js.map": "/ailo-the-boss/static/js/main.dbcf4e55.chunk.js.map",
+    "main.css": "/ailo-the-boss/static/css/main.0a303eb7.chunk.css",
+    "main.js": "/ailo-the-boss/static/js/main.6a3e784b.chunk.js",
+    "main.js.map": "/ailo-the-boss/static/js/main.6a3e784b.chunk.js.map",
     "runtime-main.js": "/ailo-the-boss/static/js/runtime-main.09a30901.js",
     "runtime-main.js.map": "/ailo-the-boss/static/js/runtime-main.09a30901.js.map",
-    "static/js/2.4d6ff6be.chunk.js": "/ailo-the-boss/static/js/2.4d6ff6be.chunk.js",
-    "static/js/2.4d6ff6be.chunk.js.map": "/ailo-the-boss/static/js/2.4d6ff6be.chunk.js.map",
+    "static/js/2.fa619250.chunk.js": "/ailo-the-boss/static/js/2.fa619250.chunk.js",
+    "static/js/2.fa619250.chunk.js.map": "/ailo-the-boss/static/js/2.fa619250.chunk.js.map",
     "index.html": "/ailo-the-boss/index.html",
-    "precache-manifest.6362a26f96eb2252267e1830ab7d528f.js": "/ailo-the-boss/precache-manifest.6362a26f96eb2252267e1830ab7d528f.js",
+    "precache-manifest.280f82b84c2c47c13eb0a7d1a24dbd7b.js": "/ailo-the-boss/precache-manifest.280f82b84c2c47c13eb0a7d1a24dbd7b.js",
     "service-worker.js": "/ailo-the-boss/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/ailo-the-boss/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.4d6ff6be.chunk.js.LICENSE.txt": "/ailo-the-boss/static/js/2.4d6ff6be.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ailo-the-boss/static/media/logo.5d5d9eef.svg"
+    "static/css/main.0a303eb7.chunk.css.map": "/ailo-the-boss/static/css/main.0a303eb7.chunk.css.map",
+    "static/js/2.fa619250.chunk.js.LICENSE.txt": "/ailo-the-boss/static/js/2.fa619250.chunk.js.LICENSE.txt",
+    "static/media/200-kr.jpg": "/ailo-the-boss/static/media/200-kr.9b312697.jpg",
+    "static/media/ambulance.png": "/ailo-the-boss/static/media/ambulance.ffa400bc.png",
+    "static/media/firetruck.png": "/ailo-the-boss/static/media/firetruck.a4e82f71.png",
+    "static/media/giftbox.png": "/ailo-the-boss/static/media/giftbox.a0107f3c.png",
+    "static/media/train.png": "/ailo-the-boss/static/media/train.783db367.png"
   },
   "entrypoints": [
     "static/js/runtime-main.09a30901.js",
-    "static/js/2.4d6ff6be.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.dbcf4e55.chunk.js"
+    "static/js/2.fa619250.chunk.js",
+    "static/css/main.0a303eb7.chunk.css",
+    "static/js/main.6a3e784b.chunk.js"
   ]
 }
