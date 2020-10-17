@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ailo-the-boss/static/css/main.5f361e03.chunk.css",
+    "main.js": "/ailo-the-boss/static/js/main.dbcf4e55.chunk.js",
+    "main.js.map": "/ailo-the-boss/static/js/main.dbcf4e55.chunk.js.map",
+    "runtime-main.js": "/ailo-the-boss/static/js/runtime-main.09a30901.js",
+    "runtime-main.js.map": "/ailo-the-boss/static/js/runtime-main.09a30901.js.map",
+    "static/js/2.4d6ff6be.chunk.js": "/ailo-the-boss/static/js/2.4d6ff6be.chunk.js",
+    "static/js/2.4d6ff6be.chunk.js.map": "/ailo-the-boss/static/js/2.4d6ff6be.chunk.js.map",
+    "index.html": "/ailo-the-boss/index.html",
+    "precache-manifest.6362a26f96eb2252267e1830ab7d528f.js": "/ailo-the-boss/precache-manifest.6362a26f96eb2252267e1830ab7d528f.js",
+    "service-worker.js": "/ailo-the-boss/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/ailo-the-boss/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4d6ff6be.chunk.js.LICENSE.txt": "/ailo-the-boss/static/js/2.4d6ff6be.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/ailo-the-boss/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09a30901.js",
+    "static/js/2.4d6ff6be.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.dbcf4e55.chunk.js"
+  ]
+}
