@@ -1,38 +1,272 @@
-.App {
+.main {
+  width: 100%;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
   font-size: calc(10px + 2vmin);
+  position: relative;
+}
+
+#step-2,
+#step-1 {
+  width: 100%;
+}
+
+.gift-sparkle {
+  position: relative;
+}
+
+.ailo-style {
+  font-size: 8rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.ailo-style-2 {
+  font-size: 6rem;
+}
+
+.cursor {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.gift-div {
+  position: relative;
 }
 
-@keyframes App-logo-spin {
+.gift {
+  height: 40vmin;
+  pointer-events: none;
+  margin: 20px 0;
+}
+
+.arrow-text {
+  font-weight: bold;
+  color: #fed91e;
+  text-shadow: 0 0 20px #fed91e, 0 0 30px #f8da43;
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 550px;
+  right: 0;
+  top: 50%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 250px; /* Set the width of the positioned div */
+}
+
+.press-me {
+  width: 20vmin;
+  height: 20vmin;
+  border-radius: 50%;
+  background-color: limegreen;
+  color: white;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  margin-top: 30px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  background-image: linear-gradient(
+    to right,
+    #f09819 0%,
+    #edde5d 51%,
+    #f09819 100%
+  );
+}
+
+.press-me:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.happy-birthday {
+  display: block;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.from {
+  font-style: italic;
+}
+
+.money {
+  height: 30vmin;
+  margin: 2rem;
+}
+
+.small-gift,
+.small-gift2 {
+  height: 20vmin;
+}
+
+.gift-1 {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+  height: 18vmin;
+}
+
+.gift-2 {
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+}
+
+.gift-3 {
+  position: absolute;
+  top: 3rem;
+  left: calc(40% + 5rem);
+  height: 10vmin;
+}
+
+.gift-4 {
+  position: absolute;
+  bottom: 2rem;
+  right: 3rem;
+  height: 18vmin;
+}
+
+.gift-5 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2rem;
+  height: 18vmin;
+}
+
+.car {
+  height: 25vmin;
+  position: fixed;
+}
+
+.firetruck {
+  top: 10rem;
+}
+
+.train {
+  transform: scaleX(-1);
+}
+
+.ambulance {
+  bottom: 5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .ailo-entry {
+    animation: 5s ease 0s normal forwards 1 ailo-entry-fadein;
+  }
+
+  .press-me {
+    animation: 7s ease 0s normal forwards 1 button-entry-fadein;
+  }
+
+  .gift {
+    animation: gift-throb infinite 2s linear;
+  }
+
+  .small-gift {
+    animation: gift-spin infinite 10s linear;
+  }
+
+  .small-gift2 {
+    animation: gift-spin infinite 10s linear reverse;
+  }
+
+  .money {
+    animation: bounce;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+
+  .car-to-left {
+    animation: drive infinite 10s linear alternate;
+  }
+
+  .car-to-right {
+    animation: drive infinite 15s linear alternate-reverse;
+  }
+  .car-to-right2 {
+    animation: drive2 infinite 10s linear alternate-reverse;
+  }
+}
+
+@keyframes ailo-entry-fadein {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes button-entry-fadein {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes gift-throb {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes gift-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes drive {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes drive2 {
+  from {
+    left: 100px;
+  }
+  to {
+    left: 100%;
   }
 }
